@@ -39,7 +39,7 @@ input_data=pd.DataFrame({
     'IsActiveMember':[is_active_member],
     'EstimatedSalary':[estimated_salary]
 })
-
+#https://ann-project-axqsw2dvvmanjwa5r2p8fk.streamlit.app/
 geo_encoded=onehot_encoder_geo.transform([[geography]])
 geo_encoded_df=pd.DataFrame(geo_encoded,columns=onehot_encoder_geo.get_feature_names_out(['Geography']))
 
